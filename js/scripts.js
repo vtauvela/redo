@@ -52,12 +52,12 @@ $('#getZip').click(function() {
       $('.temp').text(temp + "°" + "F");
       $('.city').text(city + ',' + ' ' + state);
       $('.state').text(state);
-      $('.current').text("Currently: " + current);
+      $('.current').text(current);
       $('.text').text(text);
       $('.high').text("High: " + high + "°" + "F");
       $('.low').text("Low: " + low + "°" + "F");
-      $('.sunrise').text(sunrise);
-      $('.sunset').text(sunset);
+      $('.sunrise').text("Sunrise:" + sunrise);
+      $('.sunset').text("Sunset:" + sunset);
       $('.update').text(updated);
 
       // See console for all properties of object

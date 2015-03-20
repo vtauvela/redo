@@ -10,23 +10,36 @@ h1, h2, h3, h4, h5 {
   z-index: 10;
   position: relative;
 }
+
+h1 {
+  font-size: 16em;
+  margin-left: 50px;
+}
+
 h2 {
-  font-size: 5.25em;
+  font-size: 9.25em;
+  margin-left: 50px;
+  margin-bottom: 5px;
 }
 
 h3 {
 
   font-size: 7em;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
+  margin-left: 50px;
 }
+
 h4 {
-  font-size: 3em;
+  font-size: 4em;
   line-height: .75em;
-  margin-bottom: 8px;
+  margin-bottom: 5px;
+  margin-left: 50px;
 }
 
 h5 {
   font-size: 1.75em;
+  margin-left: 50px;
+  margin-bottom: 5px;
 }
 .current {
   margin-bottom: 5px;
@@ -38,7 +51,7 @@ h5 {
 }
 
 .bottom {
-  margin: 240px 0 0 50px;
+  margin: 320px 0 0 50px;
 }
 
 .form {
@@ -73,7 +86,7 @@ h5 {
   border-bottom-color: white;
   border-top-color: white;
   color: white;
-  font-size: 40px;
+  font-size: 35px;
   font-family: 'Lato';
   font-weight: 300;
 }
@@ -84,7 +97,7 @@ h5 {
   width: 300px;
   height: 71px;
   border-radius: 15px;
-  font-size: 40px;
+  font-size: 35px;
   background: none;
   color: white;
   font-family: 'Lato';
