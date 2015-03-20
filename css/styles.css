@@ -1,0 +1,82 @@
+body {
+  font-family: 'Lato';
+}
+
+h1, h2, h3, h4, h5 {
+  font-family:  'Lato';
+  font-weight: 100;
+  color: white;
+  margin: 0;
+  z-index: 10;
+  position: relative;
+}
+h2 {
+  font-size: 5.25em;
+}
+
+h3 {
+
+  font-size: 7em;
+  margin-bottom: 10px;
+}
+h4 {
+  font-size: 3em;
+  line-height: .75em;
+  margin-bottom: 8px;
+}
+
+h5 {
+  font-size: 1.75em;
+}
+.current {
+  margin-bottom: 5px;
+  font-size: 2em;
+}
+
+.top {
+  margin: 50px 0 0 50px;
+}
+
+.bottom {
+  margin: 240px 0 0 50px;
+}
+
+.form {
+  margin-left: 15%;
+  margin-top: 23%;
+  width: 100%;
+  z-index: 10;
+  position: relative;
+  font-family: 'Lato';
+}
+  
+#getWeather {
+  margin: auto;
+  width: auto;
+  margin-left: 343px;
+}
+
+#getZip {
+  margin-top: 15px;
+  margin-left: 343px;
+  width: 155px;
+  height: 24px;
+}
+
+.wrapper {
+  background-image: url('../img/bg.jpg');
+  margin: 0 auto;
+  width: 1280px;
+  height: 775px;
+  position: relative;
+  overflow: hidden;
+}
+
+element.style {
+  position: absolute;
+}
+
+
+.group {
+  clear: both;
+}
