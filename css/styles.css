@@ -42,12 +42,22 @@ h5 {
 }
 
 .form {
-  margin-left: 15%;
+  margin-left: 31%;
   margin-top: 23%;
   width: 100%;
   z-index: 10;
   position: relative;
   font-family: 'Lato';
+  margin:auto;
+  position:relative;
+  width:550px;
+  height:450px;
+  text-decoration: none;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  padding:10px;
+  border: 1px solid #fff;
 }
   
 #getWeather {
@@ -66,8 +76,8 @@ h5 {
 .wrapper {
   background-image: url('../img/bg.jpg');
   margin: 0 auto;
-  width: 1280px;
-  height: 775px;
+  width: 2560px;
+  height: 1440px;
   position: relative;
   overflow: hidden;
 }
