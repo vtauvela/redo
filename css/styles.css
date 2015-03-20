@@ -63,13 +63,19 @@ h5 {
 #getWeather {
   margin: auto;
   width: auto;
-  margin-left: 343px;
+  margin-left: 175px;
+  margin-top: 150px;
+  background: none;
+  border-bottom-color: white;
+  border-top-color: white;
+  color: white;
+  font-family: 'Lato';
 }
 
 #getZip {
-  margin-top: 15px;
-  margin-left: 343px;
-  width: 155px;
+  margin-top: 150px;
+  margin-left: 175px;
+  width: 173px;
   height: 24px;
 }
 
