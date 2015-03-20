@@ -17,14 +17,12 @@ h1 {
 }
 
 h2 {
-  font-size: 9.25em;
+  font-size: 9em;
   margin-left: 50px;
-  margin-bottom: 5px;
 }
 
 h3 {
-
-  font-size: 7em;
+  font-size: 6em;
   margin-bottom: 5px;
   margin-left: 50px;
 }
@@ -47,11 +45,11 @@ h5 {
 }
 
 .top {
-  margin: 50px 0 0 50px;
+  margin: 645px 0 0 950px;
 }
 
 .bottom {
-  margin: 320px 0 0 50px;
+  margin: 45px 0 0 950px;
 }
 
 .form {
@@ -105,11 +103,11 @@ h5 {
 }
 
 .wrapper {
-  background-image: url('../img/bg.jpg');
+  background: url('../img/bg.jpg') no-repeat fixed 100%;
   margin: 0 auto;
   width: 2560px;
   height: 1440px;
-  position: relative;
+  background-position: static;
   overflow: hidden;
 }
 

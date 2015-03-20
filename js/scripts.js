@@ -47,17 +47,23 @@ $('#getZip').click(function() {
       var updated = weather.updated;
       // Get & Store Code
       var code = weather.code;
-      
+      // Get & Store Humidity
+      var code = weather.humidity;
+      // Get & Store Pressure
+      var code = weather.pressure;
+      // Get & Store Visibility
+      var code = weather.visibility;
       // Output to hooks in HTML
+
       $('.temp').text(temp + "°" + "F");
       $('.city').text(city + ',' + ' ' + state);
       $('.state').text(state);
       $('.current').text(current);
       $('.text').text(text);
-      $('.high').text("High: " + high + "°" + "F");
-      $('.low').text("Low: " + low + "°" + "F");
-      $('.sunrise').text("Sunrise:" + sunrise);
-      $('.sunset').text("Sunset:" + sunset);
+      $('.high').text(high + "°" + "F");
+      $('.low').text(low + "°" + "F");
+      $('.sunrise').text("Sunrise: " + sunrise);
+      $('.sunset').text("Sunset: " + sunset);
       $('.update').text(updated);
 
       // See console for all properties of object
